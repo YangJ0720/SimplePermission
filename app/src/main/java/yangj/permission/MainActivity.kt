@@ -23,8 +23,6 @@ class MainActivity : AppCompatActivity() {
     private fun initView() {
         button.setOnClickListener {
             onCall("10086")
-            println("supportFragmentManager.fragments = ${supportFragmentManager.fragments}")
-            println("supportFragmentManager.backStackEntryCount = ${supportFragmentManager.backStackEntryCount}")
         }
     }
 
